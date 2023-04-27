@@ -1,0 +1,16 @@
+
+get system interface - verificar interface
+get system interface | grep portX - filtrar porta
+get system status - mostrar as configurações gerais da caixa do fortigate como licensa e versao do fortigate
+show - comando para verificar portas e como estao programadas
+get - comando para verificar portas e como estao configuradas de forma mais detalhada
+config system interface - entrar em modo configuração
+config system global - configura atributos globais
+edit portX - Editar porta
+set mode static - configurar para modo em modo estatico
+set ip xxx.xxx.xxx 255.xxx.xxx.xxx - inserir ip estatico, e mask
+set admin-http-connection-receive-timeout XX - alterar o tempo de conexao para dar timeout
+set allowacess - comando para dar acesso as portas exemplo set allow acess ping http https OBS : NÃO ESQUECER DO COMANDO END APOS AS ALTERAÇÕES
+get route info routing-table details x.x.x.x- comando para verificar rotas de destino e origem
+execute ping xxx.xxx.xxx.xxx - pingar alguma maquina
+execute restore config tftp "configuracaodobackup"- efetuar restauração via programa tftp que fica no site pjo2.github.io/tftpd64 
