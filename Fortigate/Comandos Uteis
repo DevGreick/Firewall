@@ -12,5 +12,5 @@ set ip xxx.xxx.xxx 255.xxx.xxx.xxx - inserir ip estatico, e mask
 set admin-http-connection-receive-timeout XX - alterar o tempo de conexao para dar timeout
 set allowacess - comando para dar acesso as portas exemplo set allow acess ping http https OBS : NÃO ESQUECER DO COMANDO END APOS AS ALTERAÇÕES
 get route info routing-table details x.x.x.x- comando para verificar rotas de destino e origem
-execute ping xxx.xxx.xxx.xxx - pingar alguma maquina
+execute ping xxx.xxx.xxx.xxx  - pingar alguma maquina
 execute restore config tftp "configuracaodobackup"- efetuar restauração via programa tftp que fica no site pjo2.github.io/tftpd64 
