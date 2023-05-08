@@ -6,6 +6,7 @@ show - comando para verificar portas e como estao programadas
 get - comando para verificar portas e como estao configuradas de forma mais detalhada
 config system interface - entrar em modo configuração
 config system global - configura atributos globais
+config vpn ? - configurar vpn
 edit portX - Editar porta
 set mode static - configurar para modo em modo estatico
 set ip xxx.xxx.xxx 255.xxx.xxx.xxx - inserir ip estatico, e mask
