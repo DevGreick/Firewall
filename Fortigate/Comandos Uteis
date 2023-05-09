@@ -4,6 +4,7 @@ get system interface | grep portX - filtrar porta
 get system status - mostrar as configurações gerais da caixa do fortigate como licensa e versao do fortigate
 show - comando para verificar portas e como estao programadas
 get - comando para verificar portas e como estao configuradas de forma mais detalhada
+next - volta para a tela anterior
 config system interface - entrar em modo configuração
 config system global - configura atributos globais
 config vpn ? - configurar vpn
