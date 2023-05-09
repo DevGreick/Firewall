@@ -16,4 +16,4 @@ get route info routing-table details x.x.x.x- comando para verificar rotas de de
 execute ping xxx.xxx.xxx.xxx  - pingar alguma maquina
 execute restore config tftp "configuracaodobackup"- efetuar restauração via programa tftp que fica no site pjo2.github.io/tftpd64 
 execute reboot - reinicia o firewall
-execute factoryreset
+execute factoryreset - reinicia com padrão de fabrica
