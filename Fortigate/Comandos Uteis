@@ -12,6 +12,7 @@ config firewall address - configuração dos objetos do firewall
 config firewall addgrp - configuração dos grupos dos objetos do firewall
 set member 'nome do objeto' - troca um objeto por outro dentro do grupo.
 append member "nome do objeto" - incrementa um objeto dentro do grupo
+clear member - limpa os objetos dentro do grupo
 edit portX - Editar porta
 set mode static - configurar para modo em modo estatico
 set ip xxx.xxx.xxx 255.xxx.xxx.xxx - inserir ip estatico, e mask
